@@ -1,0 +1,20 @@
+{
+    "name": "nqueenproblem",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "board": "tsx src/board.ts",
+        "dev": "tsx src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "mohammad mohammadi",
+    "license": "MIT",
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^24.3.0",
+        "typescript": "^5.9.2"
+    }
+}
